@@ -78,7 +78,8 @@ Headings use `text-wrap: balance`.
 - Section bands: `padding-block: clamp(80px, 12vw, 150px)`; 72px on phones.
 - Card grids: 3 columns with an 18px gap, one column below 960px (resources) and 900px (blog).
 - Radii: 999px for pills, buttons and inputs; 34px offer card; 30px player card; 28px tile; 26px
-  post; 22px on phones for tiles and posts; 50% for dots, avatars and the portrait.
+  post; 22px on phones for tiles and posts; 50% for the arrow buttons, small dots, avatars and the
+  portrait; 3px for the rail position dots.
 - Breakpoints: 640px (phone layout), 760px (nav links hide), 820px (footer one column), 860px
   (offer and coach one column), 900px and 960px (grids one column).
 - Safe-area insets are respected at the top bar, the sides and the footer.
@@ -117,5 +118,6 @@ Styles that exist with no markup using them yet: `.lessons`, `.mmark` (with `.or
 
 - Focus: `:focus-visible` shows a 2px `--ice` outline with a 3px offset.
 - Tap targets are at least 44px tall (pills, social links, legal links, "Read more").
-- Decorative canvases and SVGs carry `aria-hidden="true"`; the arrows have `aria-label`s; form
-  notes are `aria-live="polite"`.
+- The hero rink canvas, the offer ring, the coach halo SVG and the final circle carry
+  `aria-hidden="true"`. The blog art canvases and the icon SVGs inside buttons and social links do
+  not. The arrows have `aria-label`s; form notes are `aria-live="polite"`.

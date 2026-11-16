@@ -71,7 +71,7 @@ Newest last. Only decisions with evidence are listed.
 | Date | Decision | Why | Alternatives considered |
 |---|---|---|---|
 | 2026-11-15 | One self-contained `index.html` with every image inlined as base64; no build step (commit 9252a9b) | TBD – confirm. Effect: the page is one file with no asset folder to host or lose | TBD – confirm |
-| 2026-11-15 | Keep the live site's page order and rebuild the look as a "night rink": full-bleed dark bands, one 1160px column, a perspective ice surface behind the hero, player cards on a snap rail, gold from the brand mark on every call to action (layout comment at the top of the CSS) | TBD – confirm | TBD – confirm |
+| 2026-11-15 | Keep the live site's page order and rebuild the look as a "night rink": full-bleed bands, one 1160px column, a perspective ice surface behind the hero, player cards on a snap rail, gold from the brand mark on every call to action (layout comment at the top of the CSS) | TBD – confirm | TBD – confirm |
 | 2026-11-15 | The email forms stay preview-only and send nothing (script, "subscribe (preview only)") | The page is a concept preview; the note says sign-up connects when the site goes live | TBD – confirm |
 | 2026-11-15 | Host on GitHub Pages from `main`, root folder, with `.nojekyll` (commit 9252a9b, Pages settings) | TBD – confirm | TBD – confirm |
 | 2026-11-15 | The repository stays public, on purpose (Max's project notes) | GitHub Pages on the account's current plan needs a public repository | Move the page to another static host and make the repository private |

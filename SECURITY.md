@@ -8,7 +8,7 @@ login and no stored user data. Most of the risk is in what gets committed.
 - The page needs no keys, tokens or passwords, and none belong here.
 - Everything committed is public: files, commit messages, branch names, issues and pull requests.
   Never commit secrets, private notes, internal file paths or contact details.
-- A gitleaks scan of the full history (2 commits) on 2026-11-16 found no secrets. Run it again
+- A gitleaks scan of the full history on 2026-11-16, including these docs, found no secrets. Run it again
   before a change that adds anything other than page content:
 
   ```
